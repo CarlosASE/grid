@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.contenedor-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(150px, 1fr)
+  ); /* Ajusta el tamaño de las columnas */
+  gap: 2px; /* Espacio entre los elementos */
+  width: 80%;
+  max-width: 1000px;
+}
+
+.grid-item {
+  background-color: #800000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
